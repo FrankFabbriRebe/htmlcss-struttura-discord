@@ -7,20 +7,41 @@
 
 /* header style */
 header  {
-    /* debug */
-    background-color: lightblue;
-    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* debug */
+    background-color: lightblue;
+    height: 50px;
 }
 
 /* nav style */
 nav     {
-    /* debug */
-    background-color: rgb(225, 153, 19);
-    height: 30px;
     display: flex;
     width: 80%;
     justify-content: center;
+    align-items: center;
+    /* debug */
+    background-color: rgb(225, 153, 19);
+    height: 30px;
+}
+
+/* nav section style */
+nav div {
+    border: 1px dotted black;
+    display: flex;
+}
+
+.logo, .login    {
+    width: 20%;
+}
+
+.nav_link   {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.login  {
+    justify-content: end;
 }
