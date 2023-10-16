@@ -113,3 +113,69 @@ nav div {
     background-color: green;
     height: 600px;
 }
+
+/* footer */
+.footer_1   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    background-color: rgb(52, 48, 48);
+    height: 500px;
+}
+
+.footer_2   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    background-color: rgb(52, 48, 48);
+    height: 50px;
+}
+
+.social {
+    width: 20%;
+    /* debug */
+    background-color: rgb(234, 128, 128);
+    height: 450px;
+}
+
+.useful_links   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    /* debug */
+    background-color: rgb(82, 150, 175);
+    height: 450px;
+}
+
+.useful_links div   {
+    width: 25%;
+    /* debug */
+    border: 1px dotted black;
+    height: 100%;
+}
+.footer_container   {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 90%;
+    /* debug */
+    border: 1px solid white;
+}
+
+.footer_logo    {
+    height: 80%;
+    width: 10%;
+    /* debug */
+    background-color: rgb(234, 128, 128); 
+}
+
+.registrati {
+    height: 80%;
+    width: 10%;
+    /* debug */
+    background-color: rgb(234, 128, 128); 
+}
