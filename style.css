@@ -45,3 +45,21 @@ nav div {
 .login  {
     justify-content: end;
 }
+
+/* title section style */
+.title  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    background-color: blue;
+    height: 400px;
+}
+
+.content    {
+    display: flex;
+    /* debug */
+    background-color: pink;
+    height: 300px;
+    width: 80%;
+}
