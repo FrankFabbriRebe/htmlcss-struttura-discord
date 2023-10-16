@@ -10,6 +10,9 @@ header  {
     /* debug */
     background-color: lightblue;
     height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* nav style */
