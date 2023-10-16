@@ -63,3 +63,53 @@ nav div {
     height: 300px;
     width: 80%;
 }
+
+/* section style */
+.section_1, .section_3  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    background-color: white;
+    height: 500px;
+}
+
+.section_2  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    background-color: grey;
+    height: 500px;
+}
+
+.section_4  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    background-color: grey;
+    height: 700px;
+}
+
+/* div inside section style */
+.img    {
+    width: 50%;
+    /* debug */
+    background-color: rgb(95, 138, 240);
+    height: 400px;
+}
+
+.text   {
+    width: 30%;
+    /* debug */
+    background-color: rgb(227, 112, 214);
+    height: 400px;
+}
+
+.container  {
+    width: 80%;
+    /* debug */
+    background-color: green;
+    height: 600px;
+}
